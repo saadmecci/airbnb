@@ -1,0 +1,369 @@
+{
+   "dashboard": {
+       "explore": {
+           "stays": {
+               "imageUrl": "./src/pictures/staysPicture.jpg"
+           },
+           "experiences": {
+                "imageUrl": "./src/pictures/experiencesPicture.jpg"
+           },
+           "adventures": {
+                "imageUrl": "./src/pictures/adventuresPicture.jpg"
+           }
+       },
+       "airbnbPlusStays": {
+            "imageUrl": "./src/pictures/airbnbPlusPicture.jpg"
+       },
+       "airbnbAdventures": [
+            {
+            "adventuresId": "adven-1",
+            "imageUrl": "./src/pictures/moroccoPicture1.jpg",
+            "country": "Morocco",
+            "name": "Atlas Mountains Experience",
+            "price": 96,
+            "unit": "person",
+            "time": "2 days",
+            "rating": ""
+            },
+            {
+            "adventuresId": "adven-2",
+            "imageUrl": "./src/pictures/norwayPicture.jpg",
+            "country": "Norway",
+            "name": "2 Nights PACKAGE All Inclusive",
+            "price": 627,
+            "unit": "person",
+            "time": "3 days",
+            "rating": "5.0(11)"
+            },
+            {
+            "adventuresId": "adven-3",
+            "imageUrl": "./src/pictures/moroccoPicture2.jpg",
+            "country": "Morocco",
+            "name": "Active Adventure & Stay With Locals",
+            "price": 313,
+            "unit": "person",
+            "time": "4 days",
+            "rating": ""
+            },
+            {
+            "adventuresId": "adven-4",
+            "imageUrl": "./src/pictures/italyPicture1.jpg",
+            "country": "Italy",
+            "name": "Walking In Leonardo's Tuscany",
+            "price": 307,
+            "unit": "person",
+            "time": "2 days",
+            "rating": ""
+            },
+            {
+            "adventuresId": "adven-5",
+            "imageUrl": "./src/pictures/romaniaPicture.jpg",
+            "country": "Romania",
+            "name": "3 Day Carpathian Photo/Culture Workshop",
+            "price": 581,
+            "unit": "person",
+            "time": "3 days",
+            "rating": ""
+            }
+       ],
+       "aroundTheWorld": [
+           {
+            "aroundTheWorldId": "world-1",
+            "imageUrl": "./src/pictures/italyPicture2.jpg",
+            "status": "SUPERHOST",
+            "country": "Italy",
+            "name": "The house among olive trees",
+            "price": 162,
+            "unit": "night",
+            "rating": "4.95",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "aroundTheWorldId": "world-2",
+            "imageUrl": "./src/pictures/greecePicture.jpg",
+            "status": "SUPERHOST",
+            "country": "Greece",
+            "name": "SUNSET CAVE HOUSE IN OIA",
+            "price": 481,
+            "unit": "night",
+            "rating": "4.92",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "aroundTheWorldId": "world-3",
+            "imageUrl": "./src/pictures/ukPicture.jpg",
+            "status": "SUPERHOST",
+            "country": "United Kingdom",
+            "name": "Old Smock Windmill in rural Kent",
+            "price": 226,
+            "unit": "night",
+            "rating": "4.99",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "aroundTheWorldId": "world-4",
+            "imageUrl": "./src/pictures/italyPicture3.jpg",
+            "status": "SUPERHOST",
+            "country": "Italy",
+            "name": "I SETTE CONI - TRULLO EDERA",
+            "price": 70,
+            "unit": "night",
+            "rating": "4.93",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "aroundTheWorldId": "world-5",
+            "imageUrl": "./src/pictures/francePicture.jpg",
+            "status": "SUPERHOST",
+            "country": "France",
+            "name": "CHARMING HOUSE Seaside & Pine Forest",
+            "price": 152,
+            "unit": "night",
+            "rating": "4.89",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "aroundTheWorldId": "world-6",
+            "imageUrl": "./src/pictures/indonesiaPicture",
+            "status": "SUPERHOST",
+            "country": "Indonesia",
+            "name": "Ocean Beachfront Luxury Design Villa @ Lovina",
+            "price": 190,
+            "unit": "night",
+            "rating": "4.89",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "aroundTheWorldId": "world-7",
+            "imageUrl": "./src/pictures/japanPicture.jpg",
+            "status": "SUPERHOST",
+            "country": "Japan",
+            "name": "Sanson Terrace 'off-grid tiny cottage'",
+            "price": 94,
+            "unit": "night",
+            "rating": "4.94",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "aroundTheWorldId": "world-8",
+            "imageUrl": "./src/pictures/usaPicture1.jpg",
+            "status": "SUPERHOST",
+            "country": "United States",
+            "name": "A Pirates Life For Me: Houseboat Downtown w/ Bikes",
+            "price": 279,
+            "unit": "night",
+            "rating": "4.73",
+            "tax": "Before fees & taxes"
+           }
+       ],
+       "topRated": [
+           {
+            "topRatedId": "top-1",
+            "imageUrl": "./src/pictures/italyPicture4.jpg",
+            "country": "Italy",
+            "name": "Handmade pasta with grandma",
+            "price": 95,
+            "unit": "person",
+            "rating": "4.99(1062)"
+           },
+           {
+            "topRatedId": "top-2",
+            "imageUrl": "./src/pictures/italyPicture5.jpg",
+            "country": "Italy",
+            "name": "Learn to Row as a Venetian",
+            "price": 55,
+            "unit": "person",
+            "rating": "4.98(928)"
+           },
+           {
+            "topRatedId": "top-3",
+            "imageUrl": "./src/pictures/italyPicture6.jpg",
+            "country": "Italy",
+            "name": "Truffle experience Rome",
+            "price": 111,
+            "unit": "person",
+            "rating": "4.99(639)"
+           },
+           {
+            "topRatedId": "top-4",
+            "imageUrl": "./src/pictures/cubaPicture.jpg",
+            "country": "Cuba",
+            "name": "Afro-Cuban Culture Guide",
+            "price": 79,
+            "unit": "person",
+            "rating": "4.96(635)"
+           },
+           {
+            "topRatedId": "top-5",
+            "imageUrl": "./src/pictures/italyPicture7.jpg",
+            "country": "Italy",
+            "name": "Luca & Lorenzo, cooking in Chianti hills",
+            "price": 140,
+            "unit": "person",
+            "rating": "5.0(1778)"
+           }
+       ],
+       "popularDestinations": [
+           {
+            "city": "San Francisco",
+            "price": "216",
+            "unit": "night average"
+           },
+           {
+            "city": "Los Angeles",
+            "price": "213",
+            "unit": "night average"
+           },
+           {
+            "city": "New York",
+            "price": "159",
+            "unit": "night average"
+           },
+           {
+            "city": "Seattle",
+            "price": "134",
+            "unit": "night average"
+           },
+           {
+            "city": "Denver",
+            "price": "128",
+            "unit": "night average"
+           },
+           {
+            "city": "Washington DC",
+            "price": "166",
+            "unit": "night average"
+           },
+           {
+            "city": "Phoenix",
+            "price": "232",
+            "unit": "night average"
+           },
+           {
+            "city": "Austin",
+            "price": "242",
+            "unit": "night average"
+           },
+           {
+            "city": "Houston",
+            "price": "351",
+            "unit": "night average"
+           },
+           {
+            "city": "New Orleans",
+            "price": "210",
+            "unit": "night average"
+           } 
+       ],
+       "featuredAirbnbPlus": [
+           {
+            "id": "feature-1",
+            "imageUrl": "./src/pictures/montrealPicture.jpg",
+            "verifiedStays": 110,
+            "description": "Book verified places to stay with must-have amenities, in a city with Old World charm and cutting-edge cuisine."
+           },
+           {
+            "id": "feature-2",
+            "imageUrl": "./src/pictures/melbournePicture.jpg",
+            "verifiedStays": 440,
+            "description": "Book sunny lofts, beachfront flats, and more verified places to stay in a city with world-class coffee and street art."
+           },
+           {
+            "id": "feature-3",
+            "imageUrl": "torontoPicture.jpg",
+            "verifiedStays": 280,
+            "description": "Take in soaring views and Edwardian details from Toronto places to stay verified for quality and design."
+           }
+       ],
+       "superhost": [
+           {
+            "superhostId": "super-1",
+            "imageUrl": "./src/pictures/italyPicture8.jpg",
+            "status": "SUPERHOST",
+            "country": "Italy",
+            "name": "I SETTE - CONI TRULLO EDERA",
+            "price": 70,
+            "unit": "night",
+            "rating": "4.93",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "superhostId": "super-2",
+            "imageUrl": "./src/pictures/mexicoPicture.jpg",
+            "status": "SUPERHOST",
+            "country": "Mexico",
+            "name": "The World Famous Seashell House ~ Casa Caracol",
+            "price": 299,
+            "unit": "night",
+            "rating": "4.75",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "superhostId": "super-3",
+            "imageUrl": "./src/pictures/colombiaPicture.jpg",
+            "status": "SUPERHOST",
+            "country": "Colombia",
+            "name": "Romantic Cabana with view",
+            "price": 40,
+            "unit": "night",
+            "rating": "4.93",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "superhostId": "super-4",
+            "imageUrl": "./src/pictures/usaPicture2.jpg",
+            "status": "SUPERHOST",
+            "country": "United States",
+            "name": "The Joshua Tree House",
+            "price": 289,
+            "unit": "night",
+            "rating": "4.87",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "superhostId": "super-5",
+            "imageUrl": "./src/pictures/usaPicture3.jpg",
+            "status": "SUPERHOST",
+            "country": "United States",
+            "name": "The Mushroom Dome Retreat & LAND of Paradise Suite",
+            "price": 130,
+            "unit": "night",
+            "rating": "4.86",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "superhostId": "super-6",
+            "imageUrl": "./src/pictures/usaPicture4",
+            "status": "SUPERHOST",
+            "country": "United States",
+            "name": "Underground Hygge",
+            "price": 300,
+            "unit": "night",
+            "rating": "4.86",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "superhostId": "super-7",
+            "imageUrl": "./src/pictures/icelandPicture.jpg",
+            "status": "SUPERHOST",
+            "country": "Iceland",
+            "name": "Amazing view - Moderne apartment",
+            "price": 153,
+            "unit": "night",
+            "rating": "4.76",
+            "tax": "Before fees & taxes"
+           },
+           {
+            "superhostId": "super-8",
+            "imageUrl": "./src/pictures/italyPicture9",
+            "status": "PLUS",
+            "country": "Italy",
+            "name": "Splendida Casa sull'Albero a Pochi Minuti da Firenze",
+            "price": 270,
+            "unit": "night",
+            "rating": "4.86",
+            "tax": "Before fees & taxes"
+           }
+       ]
+   }
+}

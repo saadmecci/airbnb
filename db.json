@@ -1,5 +1,5 @@
 {
-   "dashboard": {
+   "homePageData": {
        "explore": {
            "stays": {
                "imageUrl": "./src/pictures/staysPicture.jpg"

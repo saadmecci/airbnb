@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const Navbar = styled.div`
     height: 50px;
     width: 100%;
-    position: fixed;
     display: flex;
     justify-content: space-between;
     .airbnb-logo {

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Form, Field } from 'react-final-form';
+import { Form } from 'react-final-form';
 import styled from 'styled-components';
-import Calendar from 'react-calendar';
+//import Calendar from 'react-calendar';
 
-const Card = styled.div`
+const SearchCard = styled.div`
     background: #FFFFFF;
     height: 420px;
     width: 375px;
@@ -61,7 +61,7 @@ const SearchBox = () => {
     }
     
     return (
-        <Card>
+        <SearchCard>
             <CardTitle>
                 Book unique places to <br/>stay and things to do.
             </CardTitle>
@@ -126,7 +126,7 @@ const SearchBox = () => {
                     )}
                 />
             </CardForm>
-        </Card>
+        </SearchCard>
     )
 }
 

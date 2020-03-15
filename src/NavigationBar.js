@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import airbnbLogo from './pictures/airbnb_logo.svg';
-import Button from './components/Button';
+import { NavbarButton } from './components/Button';
 
 const NavigationBar = () => {
     return (
@@ -10,13 +10,13 @@ const NavigationBar = () => {
                 <img src={airbnbLogo} alt="Airbnb Logo"/>
             </div>
             <div className="button-container">
-                <Button>English (US)</Button>
-                <Button>$ USD</Button>
-                <Button>Host a home</Button>
-                <Button>Host an experience</Button>
-                <Button>Help</Button>
-                <Button>Sign up</Button>
-                <Button>Log in</Button>
+                <NavbarButton>English (US)</NavbarButton>
+                <NavbarButton>$ USD</NavbarButton>
+                <NavbarButton>Host a home</NavbarButton>
+                <NavbarButton>Host an experience</NavbarButton>
+                <NavbarButton>Help</NavbarButton>
+                <NavbarButton>Sign up</NavbarButton>
+                <NavbarButton>Log in</NavbarButton>
             </div>
         </Navbar>
     )

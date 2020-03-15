@@ -17,8 +17,8 @@
        "airbnbAdventures": [
             {
             "adventuresId": "adven-1",
-            "imageUrl": "./src/pictures/moroccoPicture1.jpg",
-            "country": "Morocco",
+            "imageUrl": "http://localhost:5000/assets/images/moroccoPicture1.jpg",
+            "country": "MOROCCO",
             "name": "Atlas Mountains Experience",
             "price": 96,
             "unit": "person",
@@ -27,8 +27,8 @@
             },
             {
             "adventuresId": "adven-2",
-            "imageUrl": "./src/pictures/norwayPicture.jpg",
-            "country": "Norway",
+            "imageUrl": "http://localhost:5000/assets/images/norwayPicture.jpg",
+            "country": "NORWAY",
             "name": "2 Nights PACKAGE All Inclusive",
             "price": 627,
             "unit": "person",
@@ -37,8 +37,8 @@
             },
             {
             "adventuresId": "adven-3",
-            "imageUrl": "./src/pictures/moroccoPicture2.jpg",
-            "country": "Morocco",
+            "imageUrl": "http://localhost:5000/assets/images/moroccoPicture2.jpg",
+            "country": "MOROCCO",
             "name": "Active Adventure & Stay With Locals",
             "price": 313,
             "unit": "person",
@@ -47,8 +47,8 @@
             },
             {
             "adventuresId": "adven-4",
-            "imageUrl": "./src/pictures/italyPicture1.jpg",
-            "country": "Italy",
+            "imageUrl": "http://localhost:5000/assets/images/italyPicture1.jpg",
+            "country": "ITALY",
             "name": "Walking In Leonardo's Tuscany",
             "price": 307,
             "unit": "person",
@@ -57,8 +57,8 @@
             },
             {
             "adventuresId": "adven-5",
-            "imageUrl": "./src/pictures/romaniaPicture.jpg",
-            "country": "Romania",
+            "imageUrl": "http://localhost:5000/assets/images/romaniaPicture.jpg",
+            "country": "ROMANIA",
             "name": "3 Day Carpathian Photo/Culture Workshop",
             "price": 581,
             "unit": "person",

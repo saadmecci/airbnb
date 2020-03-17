@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Form } from 'react-final-form';
 import styled from 'styled-components';
-//import Calendar from 'react-calendar';
+import Calendar from 'react-calendar';
 
 const SearchCard = styled.div`
     background: #FFFFFF;
@@ -53,8 +53,37 @@ const UserInput = styled.input`
     border-radius: 4px;
     border: 0.5px solid #E7E7E7;
 `
+const CalendarModal = styled.div`
+    display: ${props => props.display === "block" ? "block":"none"};
+    position: absolute;
+    height: 266px;
+    width: 277px;
+    border-radius: 10px;
+    box-shadow: rgba(26, 26, 29, 0.3) 0px 15px 46px -10px;
+`
 
 const SearchBox = () => {
+
+    const [checkInModal, setCheckInModal] = useState("none");
+    const [checkOutModal, setCheckOutModal] = useState("none");
+    const node = useRef();
+
+    const handleClick = (e) => {
+        if (node.current.contains(e.target)) {
+            return;
+        }
+        setCheckInModal("none");
+        setCheckOutModal("none");
+    }
+
+    useEffect(() => {
+        document.addEventListener("mousedown", handleClick);
+
+        return () => {
+            document.removeEventListener("mousedown", handleClick);
+        };
+
+    }, []);
 
     const onSubmit = (e) => {
         console.log("haha")
@@ -92,7 +121,11 @@ const SearchBox = () => {
                                         component="input"
                                         type="text"
                                         placeholder="mm/dd/yyyy"
+                                        onClick={() => setCheckInModal("block")}
                                     />
+                                    <CalendarModal ref={node} display={checkInModal}>
+                                        <Calendar/>
+                                    </CalendarModal>
                                 </div>
                                 <div style={{width:"50%"}}>
                                     <label>CHECKOUT</label>
@@ -102,7 +135,11 @@ const SearchBox = () => {
                                         component="input"
                                         type="text"
                                         placeholder="mm/dd/yyyy"
+                                        onClick={() => setCheckOutModal("block")}
                                     />
+                                    <CalendarModal ref={node} display={checkOutModal}>
+                                        <Calendar/>
+                                    </CalendarModal>
                                 </div>
                             </FormInfo>
                             <FormInfo>

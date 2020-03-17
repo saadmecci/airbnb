@@ -21,5 +21,6 @@ This is what you will need to install the software and here is how to install it
 ## This application is built with
 * [React](https://reactjs.org) - The library used
 * [React Final Form](https://final-form.org/react) - React form library
+* [React Calendar](https://github.com/wojtekmaj/react-calendar) - Calendar with multiple language supports.
 * [JSON-Server](https://github.com/typicode/json-server) - A fake REST API for prototyping and mock data.
 * [Styled Components](https://styled-components.com) - React styling library that transforms css into React components.

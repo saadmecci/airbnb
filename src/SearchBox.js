@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Form } from 'react-final-form';
 import styled from 'styled-components';
 import Calendar from 'react-calendar';
+import InputCalendarModal from './components/Calendar';
 
 const SearchCard = styled.div`
     background: #FFFFFF;
@@ -52,14 +53,6 @@ const UserInput = styled.input`
     box-sizing: border-box;
     border-radius: 4px;
     border: 0.5px solid #E7E7E7;
-`
-const CalendarModal = styled.div`
-    display: ${props => props.display === "block" ? "block":"none"};
-    position: absolute;
-    height: 266px;
-    width: 277px;
-    border-radius: 10px;
-    box-shadow: rgba(26, 26, 29, 0.3) 0px 15px 46px -10px;
 `
 
 const SearchBox = () => {
@@ -123,9 +116,9 @@ const SearchBox = () => {
                                         placeholder="mm/dd/yyyy"
                                         onClick={() => setCheckInModal("block")}
                                     />
-                                    <CalendarModal ref={node} display={checkInModal}>
+                                    <InputCalendarModal ref={node} display={checkInModal}>
                                         <Calendar/>
-                                    </CalendarModal>
+                                    </InputCalendarModal>
                                 </div>
                                 <div style={{width:"50%"}}>
                                     <label>CHECKOUT</label>
@@ -137,9 +130,9 @@ const SearchBox = () => {
                                         placeholder="mm/dd/yyyy"
                                         onClick={() => setCheckOutModal("block")}
                                     />
-                                    <CalendarModal ref={node} display={checkOutModal}>
+                                    <InputCalendarModal ref={node} display={checkOutModal}>
                                         <Calendar/>
-                                    </CalendarModal>
+                                    </InputCalendarModal>
                                 </div>
                             </FormInfo>
                             <FormInfo>

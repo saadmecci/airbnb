@@ -1,7 +1,7 @@
 import React from 'react';
-import NavigationBar from './NavigationBar';
+import NavigationBar from '../NavigationBar';
 import SearchBox from './SearchBox';
-import dashboardPicture from './pictures/dashboardPicture.jpg';
+import dashboardPicture from '../pictures/dashboardPicture.jpg';
 import styled from 'styled-components';
 
 const DashboardContainer = styled.div`

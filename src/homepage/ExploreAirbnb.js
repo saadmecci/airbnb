@@ -1,8 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import staysPicture from './pictures/staysPicture.jpg';
-import experiencesPicture from './pictures/experiencesPicture.jpg';
-import adventuresPicture from './pictures/adventuresPicture.jpg';
+import axios from 'axios';
 
 const ExploreBigContainer = styled.div`
     width: 100%;
@@ -43,6 +41,22 @@ const ExploreCardDescription = styled.div`
 `
 
 const ExploreAirbnb = () => {
+
+    const [data, setData] = useState([]);
+    
+    useEffect(() => {
+        const getData = () => {
+            axios.get("http://localhost:5000/homepagedata")
+            .then((results) => {
+                setData(results.data.explore);
+            })
+            .catch((error) => {
+                throw error;
+            });
+        }
+        getData();
+    }, []);
+
     return (
         <ExploreBigContainer>
             <ExploreSmallContainer>
@@ -59,24 +73,14 @@ const ExploreAirbnb = () => {
                     </div>
                 </div>
                 <ExploreCardContainer>
-                <ExploreCard>
-                    <ExploreCardImageContainer background={staysPicture}/>
-                    <ExploreCardDescription>
-                        Stays
-                    </ExploreCardDescription>
-                </ExploreCard>
-                <ExploreCard>
-                    <ExploreCardImageContainer background={experiencesPicture}/>
-                    <ExploreCardDescription>
-                        Experiences
-                    </ExploreCardDescription>
-                </ExploreCard>
-                <ExploreCard>
-                    <ExploreCardImageContainer background={adventuresPicture}/>
-                    <ExploreCardDescription>
-                        Adventures
-                    </ExploreCardDescription>
-                </ExploreCard>
+                    {data.map((item, index) => 
+                        <ExploreCard key={index}>
+                            <ExploreCardImageContainer background={item.imageUrl}/>
+                            <ExploreCardDescription>
+                                {item.title}
+                            </ExploreCardDescription>
+                        </ExploreCard>
+                    )}
                 </ExploreCardContainer>
             </ExploreSmallContainer>
         </ExploreBigContainer>

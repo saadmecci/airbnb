@@ -3,7 +3,7 @@ Recreating the [Airbnb](https://www.airbnb.com) website with react.js and styled
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Cloning with SSH: `git@github.com:saadmecci/airbnb.git`.
+Cloning with SSH: `git@github.com:saadmecci/airbnb.git`
 
 Cloning with HTTPS: `https://github.com/saadmecci/airbnb.git`
 
@@ -11,7 +11,7 @@ Set up your local environments and run `yarn`
 
 Run `yarn start`
 
-Run `json-server -p port 5000 db.json` simultaneously on split terminal.
+Run `json-server db.json --port 5000` simultaneously on a split terminal.
 
 ### Prerequisites
 This is what you will need to install the software and here is how to install it.

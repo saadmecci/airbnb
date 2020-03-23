@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Form } from 'react-final-form';
 import styled from 'styled-components';
 import Calendar from 'react-calendar';
-import InputCalendarModal from './components/Calendar';
+import InputCalendarModal from '../components/Calendar';
 
 const SearchCard = styled.div`
     background: #FFFFFF;

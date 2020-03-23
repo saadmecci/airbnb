@@ -1,16 +1,19 @@
 {
    "homePageData": {
-       "explore": {
-           "stays": {
-               "imageUrl": "./src/pictures/staysPicture.jpg"
+       "explore": [
+           {
+            "title": "Stays",
+            "imageUrl": "http://localhost:5000/assets/images/staysPicture.jpg"
            },
-           "experiences": {
-                "imageUrl": "./src/pictures/experiencesPicture.jpg"
+           {
+            "title": "Experiences",
+            "imageUrl": "http://localhost:5000/assets/images/experiencesPicture.jpg"
            },
-           "adventures": {
-                "imageUrl": "./src/pictures/adventuresPicture.jpg"
+           {
+            "title": "Adventures",
+            "imageUrl": "http://localhost:5000/assets/images/adventuresPicture.jpg"
            }
-       },
+        ],
        "airbnbPlusStays": {
             "imageUrl": "./src/pictures/airbnbPlusPicture.jpg"
        },

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const ExploreBigContainer = styled.div`
     width: 100%;
@@ -13,6 +14,7 @@ const ExploreSmallContainer = styled.div`
 `
 const ExploreCardContainer = styled.div`
     display: flex;
+    justify-content: space-between;
     margin-top: 10px;
 `
 const ExploreCard = styled.div`
@@ -28,6 +30,7 @@ const ExploreCard = styled.div`
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     overflow: hidden;
     margin: 0px 10px 0px 10px;
+    cursor: pointer;
 `
 const ExploreCardImageContainer = styled.div`
     background-image: ${props => `url(${props.background})`};
@@ -36,8 +39,17 @@ const ExploreCardImageContainer = styled.div`
     width: 126px;
 `
 const ExploreCardDescription = styled.div`
+    color: black;
     line-height: 84px;
     padding: 0px 16px 0px 24px;
+`
+const StyledLink = styled(Link)`
+    width: 100%;
+    text-decoration: none;
+    style: none;
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
 `
 
 const ExploreAirbnb = () => {
@@ -74,12 +86,14 @@ const ExploreAirbnb = () => {
                 </div>
                 <ExploreCardContainer>
                     {data.map((item, index) => 
-                        <ExploreCard key={index}>
-                            <ExploreCardImageContainer background={item.imageUrl}/>
-                            <ExploreCardDescription>
-                                {item.title}
-                            </ExploreCardDescription>
-                        </ExploreCard>
+                        <StyledLink to={`/${item.title}`} key={index}>
+                            <ExploreCard>
+                                <ExploreCardImageContainer background={item.imageUrl}/>
+                                <ExploreCardDescription>
+                                    {item.title}
+                                </ExploreCardDescription>
+                            </ExploreCard>
+                        </StyledLink>
                     )}
                 </ExploreCardContainer>
             </ExploreSmallContainer>

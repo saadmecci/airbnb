@@ -1,11 +1,11 @@
 import React from 'react';
-import NavigationBar from '../NavigationBar';
 import SearchBox from './SearchBox';
 import dashboardPicture from '../pictures/dashboardPicture.jpg';
 import styled from 'styled-components';
 
 const DashboardContainer = styled.div`
-    height: 100vh; 
+    height: 100vh;
+    min-height: 829px;
     width: 100%;
     background-image: url(${dashboardPicture});
     background-size: cover;
@@ -13,9 +13,8 @@ const DashboardContainer = styled.div`
     display: flex;
     flex-direction: column;
 `
-
 const SearchBoxContainer = styled.div`
-    padding-top: 70px;
+    padding-top: 120px;
     display: flex;
     justify-content: space-around;
 `
@@ -23,7 +22,6 @@ const SearchBoxContainer = styled.div`
 const Dashboard = () => {
     return (
         <DashboardContainer alt="Dashboard Image">
-            <NavigationBar/>
             <SearchBoxContainer>
                 <SearchBox/>
                 <div></div>

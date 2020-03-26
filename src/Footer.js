@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FooterButton } from '../components/Button';
+import { FooterButton } from './components/Button';
 
 const FooterBigContainer = styled.div`
     border-top-color: #DDDDDD;

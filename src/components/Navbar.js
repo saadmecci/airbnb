@@ -5,6 +5,7 @@ const Navbar = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: absolute;
     .airbnb-logo {
         padding: 25px 0px 0px 25px;
     }

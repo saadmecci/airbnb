@@ -3,6 +3,7 @@ import Dashboard from './Dashboard';
 import ExploreAirbnb from './ExploreAirbnb';
 import AirbnbAdventures from "./AirbnbAdventures";
 import styled from 'styled-components';
+import TopRated from './TopRated';
 
 const HomePageContainer = styled.div`
     display: flex;
@@ -15,6 +16,7 @@ const HomePage = () => {
             <Dashboard/>
             <ExploreAirbnb/>
             <AirbnbAdventures/>
+            <TopRated/>
         </HomePageContainer>
     )
 }

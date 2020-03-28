@@ -69,100 +69,10 @@
             "rating": ""
             }
        ],
-       "aroundTheWorld": [
-           {
-            "aroundTheWorldId": "world-1",
-            "imageUrl": "./src/pictures/italyPicture2.jpg",
-            "status": "SUPERHOST",
-            "country": "Italy",
-            "name": "The house among olive trees",
-            "price": 162,
-            "unit": "night",
-            "rating": "4.95",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "aroundTheWorldId": "world-2",
-            "imageUrl": "./src/pictures/greecePicture.jpg",
-            "status": "SUPERHOST",
-            "country": "Greece",
-            "name": "SUNSET CAVE HOUSE IN OIA",
-            "price": 481,
-            "unit": "night",
-            "rating": "4.92",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "aroundTheWorldId": "world-3",
-            "imageUrl": "./src/pictures/ukPicture.jpg",
-            "status": "SUPERHOST",
-            "country": "United Kingdom",
-            "name": "Old Smock Windmill in rural Kent",
-            "price": 226,
-            "unit": "night",
-            "rating": "4.99",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "aroundTheWorldId": "world-4",
-            "imageUrl": "./src/pictures/italyPicture3.jpg",
-            "status": "SUPERHOST",
-            "country": "Italy",
-            "name": "I SETTE CONI - TRULLO EDERA",
-            "price": 70,
-            "unit": "night",
-            "rating": "4.93",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "aroundTheWorldId": "world-5",
-            "imageUrl": "./src/pictures/francePicture.jpg",
-            "status": "SUPERHOST",
-            "country": "France",
-            "name": "CHARMING HOUSE Seaside & Pine Forest",
-            "price": 152,
-            "unit": "night",
-            "rating": "4.89",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "aroundTheWorldId": "world-6",
-            "imageUrl": "./src/pictures/indonesiaPicture",
-            "status": "SUPERHOST",
-            "country": "Indonesia",
-            "name": "Ocean Beachfront Luxury Design Villa @ Lovina",
-            "price": 190,
-            "unit": "night",
-            "rating": "4.89",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "aroundTheWorldId": "world-7",
-            "imageUrl": "./src/pictures/japanPicture.jpg",
-            "status": "SUPERHOST",
-            "country": "Japan",
-            "name": "Sanson Terrace 'off-grid tiny cottage'",
-            "price": 94,
-            "unit": "night",
-            "rating": "4.94",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "aroundTheWorldId": "world-8",
-            "imageUrl": "./src/pictures/usaPicture1.jpg",
-            "status": "SUPERHOST",
-            "country": "United States",
-            "name": "A Pirates Life For Me: Houseboat Downtown w/ Bikes",
-            "price": 279,
-            "unit": "night",
-            "rating": "4.73",
-            "tax": "Before fees & taxes"
-           }
-       ],
        "topRated": [
            {
             "topRatedId": "top-1",
-            "imageUrl": "./src/pictures/italyPicture4.jpg",
+            "imageUrl": "http://localhost:5000/assets/images/italyPicture4.jpg",
             "country": "Italy",
             "name": "Handmade pasta with grandma",
             "price": 95,
@@ -171,7 +81,7 @@
            },
            {
             "topRatedId": "top-2",
-            "imageUrl": "./src/pictures/italyPicture5.jpg",
+            "imageUrl": "http://localhost:5000/assets/images/italyPicture5.jpg",
             "country": "Italy",
             "name": "Learn to Row as a Venetian",
             "price": 55,
@@ -180,7 +90,7 @@
            },
            {
             "topRatedId": "top-3",
-            "imageUrl": "./src/pictures/italyPicture6.jpg",
+            "imageUrl": "http://localhost:5000/assets/images/italyPicture6.jpg",
             "country": "Italy",
             "name": "Truffle experience Rome",
             "price": 111,
@@ -189,7 +99,7 @@
            },
            {
             "topRatedId": "top-4",
-            "imageUrl": "./src/pictures/cubaPicture.jpg",
+            "imageUrl": "http://localhost:5000/assets/images/cubaPicture.jpg",
             "country": "Cuba",
             "name": "Afro-Cuban Culture Guide",
             "price": 79,
@@ -198,175 +108,371 @@
            },
            {
             "topRatedId": "top-5",
-            "imageUrl": "./src/pictures/italyPicture7.jpg",
+            "imageUrl": "http://localhost:5000/assets/images/italyPicture7.jpg",
             "country": "Italy",
             "name": "Luca & Lorenzo, cooking in Chianti hills",
             "price": 140,
             "unit": "person",
             "rating": "5.0(1778)"
            }
-       ],
-       "popularDestinations": [
-           {
-            "city": "San Francisco",
-            "price": "216",
-            "unit": "night average"
-           },
-           {
-            "city": "Los Angeles",
-            "price": "213",
-            "unit": "night average"
-           },
-           {
-            "city": "New York",
-            "price": "159",
-            "unit": "night average"
-           },
-           {
-            "city": "Seattle",
-            "price": "134",
-            "unit": "night average"
-           },
-           {
-            "city": "Denver",
-            "price": "128",
-            "unit": "night average"
-           },
-           {
-            "city": "Washington DC",
-            "price": "166",
-            "unit": "night average"
-           },
-           {
-            "city": "Phoenix",
-            "price": "232",
-            "unit": "night average"
-           },
-           {
-            "city": "Austin",
-            "price": "242",
-            "unit": "night average"
-           },
-           {
-            "city": "Houston",
-            "price": "351",
-            "unit": "night average"
-           },
-           {
-            "city": "New Orleans",
-            "price": "210",
-            "unit": "night average"
-           } 
-       ],
-       "featuredAirbnbPlus": [
-           {
-            "id": "feature-1",
-            "imageUrl": "./src/pictures/montrealPicture.jpg",
-            "verifiedStays": 110,
-            "description": "Book verified places to stay with must-have amenities, in a city with Old World charm and cutting-edge cuisine."
-           },
-           {
-            "id": "feature-2",
-            "imageUrl": "./src/pictures/melbournePicture.jpg",
-            "verifiedStays": 440,
-            "description": "Book sunny lofts, beachfront flats, and more verified places to stay in a city with world-class coffee and street art."
-           },
-           {
-            "id": "feature-3",
-            "imageUrl": "torontoPicture.jpg",
-            "verifiedStays": 280,
-            "description": "Take in soaring views and Edwardian details from Toronto places to stay verified for quality and design."
-           }
-       ],
-       "superhost": [
-           {
-            "superhostId": "super-1",
-            "imageUrl": "./src/pictures/italyPicture8.jpg",
-            "status": "SUPERHOST",
-            "country": "Italy",
-            "name": "I SETTE - CONI TRULLO EDERA",
-            "price": 70,
-            "unit": "night",
-            "rating": "4.93",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "superhostId": "super-2",
-            "imageUrl": "./src/pictures/mexicoPicture.jpg",
-            "status": "SUPERHOST",
-            "country": "Mexico",
-            "name": "The World Famous Seashell House ~ Casa Caracol",
-            "price": 299,
-            "unit": "night",
-            "rating": "4.75",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "superhostId": "super-3",
-            "imageUrl": "./src/pictures/colombiaPicture.jpg",
-            "status": "SUPERHOST",
-            "country": "Colombia",
-            "name": "Romantic Cabana with view",
-            "price": 40,
-            "unit": "night",
-            "rating": "4.93",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "superhostId": "super-4",
-            "imageUrl": "./src/pictures/usaPicture2.jpg",
-            "status": "SUPERHOST",
-            "country": "United States",
-            "name": "The Joshua Tree House",
-            "price": 289,
-            "unit": "night",
-            "rating": "4.87",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "superhostId": "super-5",
-            "imageUrl": "./src/pictures/usaPicture3.jpg",
-            "status": "SUPERHOST",
-            "country": "United States",
-            "name": "The Mushroom Dome Retreat & LAND of Paradise Suite",
-            "price": 130,
-            "unit": "night",
-            "rating": "4.86",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "superhostId": "super-6",
-            "imageUrl": "./src/pictures/usaPicture4",
-            "status": "SUPERHOST",
-            "country": "United States",
-            "name": "Underground Hygge",
-            "price": 300,
-            "unit": "night",
-            "rating": "4.86",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "superhostId": "super-7",
-            "imageUrl": "./src/pictures/icelandPicture.jpg",
-            "status": "SUPERHOST",
-            "country": "Iceland",
-            "name": "Amazing view - Moderne apartment",
-            "price": 153,
-            "unit": "night",
-            "rating": "4.76",
-            "tax": "Before fees & taxes"
-           },
-           {
-            "superhostId": "super-8",
-            "imageUrl": "./src/pictures/italyPicture9",
-            "status": "PLUS",
-            "country": "Italy",
-            "name": "Splendida Casa sull'Albero a Pochi Minuti da Firenze",
-            "price": 270,
-            "unit": "night",
-            "rating": "4.86",
-            "tax": "Before fees & taxes"
-           }
        ]
+   },
+   "staysData": {
+        "travelTheWorld": [
+            {
+             "imageUrl": "http://localhost:5000/assets/images/paris.jpg",
+             "city": "Paris"
+            },
+            {
+             "imageUrl": "http://localhost:5000/assets/images/newyork.jpg",
+             "city": "New York"
+            },
+            {
+             "imageUrl": "http://localhost:5000/assets/images/sydney.jpg",
+             "city": "Sydney"
+            },
+            {
+             "imageUrl": "http://localhost:5000/assets/images/capetown.jpg",
+             "city": "Cape Town"
+            },
+            {
+             "imageUrl": "http://localhost:5000/assets/images/buenosaires.jpg",
+             "city": "Buenos Aires"
+            },
+            {
+             "imageUrl": "http://localhost:5000/assets/images/barcelona.jpg",
+             "city": "Barcelona"
+            },
+            {
+             "imageUrl": "http://localhost:5000/assets/images/losangeles.jpg",
+             "city": "Los Angeles"
+            }
+        ],
+        "topRated": [
+            {
+             "topRatedId": "topRated-1",
+             "imageUrl": [
+                 "http://localhost:5000/assets/images/seashell1.jpg",
+                 "http://localhost:5000/assets/images/seashell2.jpg",
+                 "http://localhost:5000/assets/images/seashell3.jpg",
+                 "http://localhost:5000/assets/images/seashell4.jpg",
+                 "http://localhost:5000/assets/images/seashell5.jpg"
+             ],
+             "status": "SUPERHOST",
+             "location": "Isla Mujeres",
+             "rating": "4.75",
+             "name": "The World Famous Seashell House ~ Casa Caracol",
+             "price": 299,
+             "time": "night"
+            },
+            {
+             "topRatedId": "topRated-2",
+             "imageUrl": [
+                 "http://localhost:5000/assets/images/cabana1.jpg",
+                 "http://localhost:5000/assets/images/cabana2.jpg",
+                 "http://localhost:5000/assets/images/cabana3.jpg",
+                 "http://localhost:5000/assets/images/cabana4.jpg",
+                 "http://localhost:5000/assets/images/cabana5.jpg"
+             ],
+             "status": "SUPERHOST",
+             "location": "Armenia",
+             "rating": "4.93",
+             "name": "Romantic Cabana with view",
+             "price": 40,
+             "time": "night"
+            },
+            {
+             "topRatedId": "topRated-3",
+             "imageUrl": [
+                 "http://localhost:5000/assets/images/joshua1.jpg",
+                 "http://localhost:5000/assets/images/joshua2.jpg",
+                 "http://localhost:5000/assets/images/joshua3.jpg",
+                 "http://localhost:5000/assets/images/joshua4.jpg",
+                 "http://localhost:5000/assets/images/joshua5.jpg"
+             ],
+             "status": "SUPERHOST",
+             "location": "Joshua Tree",
+             "rating": "4.88",
+             "name": "The Joshua Tree House",
+             "price": 289,
+             "time": "night"
+            },
+            {
+             "topRatedId": "topRated-4",
+             "imageUrl": [
+                 "http://localhost:5000/assets/images/mushroom1.jpg",
+                 "http://localhost:5000/assets/images/mushroom2.jpg",
+                 "http://localhost:5000/assets/images/mushroom3.jpg",
+                 "http://localhost:5000/assets/images/mushroom4.jpg",
+                 "http://localhost:5000/assets/images/mushroom5.jpg"
+             ],
+             "status": "SUPERHOST",
+             "location": "Aptos",
+             "rating": "4.86",
+             "name": "The Mushroom Dome Retreat & LAND of Paradise Suite",
+             "price": 130,
+             "time": "night"
+            },
+            {
+             "topRatedId": "topRated-5",
+             "imageUrl": [
+                 "http://localhost:5000/assets/images/hygge1.jpg",
+                 "http://localhost:5000/assets/images/hygge2.jpg",
+                 "http://localhost:5000/assets/images/hygge3.jpg",
+                 "http://localhost:5000/assets/images/hygge4.jpg",
+                 "http://localhost:5000/assets/images/hygge5.jpg"
+             ],
+             "status": "SUPERHOST",
+             "location": "Orondo",
+             "rating": "4.85",
+             "name": "Underground Hygge",
+             "price": 150,
+             "time": "night"
+            }
+        ],
+        "placesToStay":[
+            {
+             "staysId": "stays-1",
+             "imageUrl": "http://localhost:5000/assets/images/monteverde1.jpg",
+             "status": "SUPERHOST",
+             "location": "Monte Verde",
+             "rating": "4.92",
+             "name": "CASA NA ÁRVORE nas montanhas (Monte Verde - MG)",
+             "price": 71,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-2",
+             "imageUrl": "http://localhost:5000/assets/images/phuket1.jpg",
+             "status": null,
+             "location": "Phuket, Thailand",
+             "rating": "4.67",
+             "name": "White Breeze Pool 1BD Apartment",
+             "price": 53,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-3",
+             "imageUrl": "http://localhost:5000/assets/images/marrakesh1.jpg",
+             "status": "SUPERHOST",
+             "location": "Marrakesh",
+             "rating": "4.84",
+             "name": "The Cozy Palace",
+             "price": 85,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-4",
+             "imageUrl": "http://localhost:5000/assets/images/capetown1.jpg",
+             "status": "PLUS",
+             "location": "Cape Town",
+             "rating": "4.84",
+             "name": "Modern, Chic Penthouse with Mountain, City & Sea Views",
+             "price": 58,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-5",
+             "imageUrl": "http://localhost:5000/assets/images/bangkok1.jpg",
+             "status": "SUPERHOST",
+             "location": "Bangkok",
+             "rating": "4.69",
+             "name": "Designer Loft Bangkok Silom",
+             "price": 73,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-6",
+             "imageUrl": "http://localhost:5000/assets/images/malibu1.jpg",
+             "status": "SUPERHOST",
+             "location": "Malibu",
+             "rating": "4.78",
+             "name": "Ocean View Malibu Hideaway",
+             "price": 350,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-7",
+             "imageUrl": "http://localhost:5000/assets/images/ubud1.jpg",
+             "status": "SUPERHOST",
+             "location": "Ubud",
+             "rating": "4.64",
+             "name": "Bamboo eco cottage in rice fields",
+             "price": 30,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-8",
+             "imageUrl": "http://localhost:5000/assets/images/alozaina1.jpg",
+             "status": null,
+             "location": "Ubud",
+             "rating": "4.86",
+             "name": "Airstream 'Glamping' in Andalucia!",
+             "price": 138,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-9",
+             "imageUrl": "http://localhost:5000/assets/images/choeng1.jpg",
+             "status": "SUPERHOST",
+             "location": "Villa Amonteera",
+             "rating": "4.81",
+             "name": "Villa Amonteera, Luxury with Fantastic Ocean Views",
+             "price": 1050,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-10",
+             "imageUrl": "http://localhost:5000/assets/images/palms1.jpg",
+             "status": "SUPERHOST",
+             "location": "Twentynine Palms",
+             "rating": "4.96",
+             "name": "Tile House",
+             "price": 177,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-11",
+             "imageUrl": "http://localhost:5000/assets/images/oia1.jpg",
+             "status": "SUPERHOST",
+             "location": "Oia",
+             "rating": "4.94",
+             "name": "Unique Architecture Cave House",
+             "price": 385,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-12",
+             "imageUrl": "http://localhost:5000/assets/images/volcano1.jpg",
+             "status": "SUPERHOST",
+             "location": "Volcano",
+             "rating": "4.92",
+             "name": "Treehouse at Kilauea Volcano",
+             "price": 299,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-13",
+             "imageUrl": "http://localhost:5000/assets/images/santorini1.jpg",
+             "status": "SUPERHOST",
+             "location": "Santorini",
+             "rating": "4.95",
+             "name": "Hector Cave House",
+             "price": 445,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-14",
+             "imageUrl": "http://localhost:5000/assets/images/budapest1.jpg",
+             "status": "SUPERHOST",
+             "location": "Budapest",
+             "rating": "4.97",
+             "name": "Hidden Gem of Budapest City Centre",
+             "price": 60,
+             "time": "night"
+            },
+            {
+             "staysId": "stays-15",
+             "imageUrl": "http://localhost:5000/assets/images/kuta1.jpg",
+             "status": null,
+             "location": "Kuta Utara",
+             "rating": "4.76",
+             "name": "UNIQUE SUMATRAN KARO HOUSE",
+             "price": 60,
+             "time": "night"  
+            }
+        ]
+   },
+   "experiencesData": {
+        "aroundTheWorld": [
+            {
+             "aroundTheWorldId": "world-1",
+             "imageUrl": "./src/pictures/italyPicture2.jpg",
+             "status": "SUPERHOST",
+             "country": "Italy",
+             "name": "The house among olive trees",
+             "price": 162,
+             "unit": "night",
+             "rating": "4.95",
+             "tax": "Before fees & taxes"
+            },
+            {
+             "aroundTheWorldId": "world-2",
+             "imageUrl": "./src/pictures/greecePicture.jpg",
+             "status": "SUPERHOST",
+             "country": "Greece",
+             "name": "SUNSET CAVE HOUSE IN OIA",
+             "price": 481,
+             "unit": "night",
+             "rating": "4.92",
+             "tax": "Before fees & taxes"
+            },
+            {
+             "aroundTheWorldId": "world-3",
+             "imageUrl": "./src/pictures/ukPicture.jpg",
+             "status": "SUPERHOST",
+             "country": "United Kingdom",
+             "name": "Old Smock Windmill in rural Kent",
+             "price": 226,
+             "unit": "night",
+             "rating": "4.99",
+             "tax": "Before fees & taxes"
+            },
+            {
+             "aroundTheWorldId": "world-4",
+             "imageUrl": "./src/pictures/italyPicture3.jpg",
+             "status": "SUPERHOST",
+             "country": "Italy",
+             "name": "I SETTE CONI - TRULLO EDERA",
+             "price": 70,
+             "unit": "night",
+             "rating": "4.93",
+             "tax": "Before fees & taxes"
+            },
+            {
+             "aroundTheWorldId": "world-5",
+             "imageUrl": "./src/pictures/francePicture.jpg",
+             "status": "SUPERHOST",
+             "country": "France",
+             "name": "CHARMING HOUSE Seaside & Pine Forest",
+             "price": 152,
+             "unit": "night",
+             "rating": "4.89",
+             "tax": "Before fees & taxes"
+            },
+            {
+             "aroundTheWorldId": "world-6",
+             "imageUrl": "./src/pictures/indonesiaPicture",
+             "status": "SUPERHOST",
+             "country": "Indonesia",
+             "name": "Ocean Beachfront Luxury Design Villa @ Lovina",
+             "price": 190,
+             "unit": "night",
+             "rating": "4.89",
+             "tax": "Before fees & taxes"
+            },
+            {
+             "aroundTheWorldId": "world-7",
+             "imageUrl": "./src/pictures/japanPicture.jpg",
+             "status": "SUPERHOST",
+             "country": "Japan",
+             "name": "Sanson Terrace 'off-grid tiny cottage'",
+             "price": 94,
+             "unit": "night",
+             "rating": "4.94",
+             "tax": "Before fees & taxes"
+            },
+            {
+             "aroundTheWorldId": "world-8",
+             "imageUrl": "./src/pictures/usaPicture1.jpg",
+             "status": "SUPERHOST",
+             "country": "United States",
+             "name": "A Pirates Life For Me: Houseboat Downtown w/ Bikes",
+             "price": 279,
+             "unit": "night",
+             "rating": "4.73",
+             "tax": "Before fees & taxes"
+            }
+        ]
    }
 }

@@ -5,7 +5,7 @@ import CardDisplayer from './components';
 
 const AdventuresBigContainer = styled.div`
     padding: 0px 80px 0px 80px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 `
 const AdventuresSmallContainer = styled.div`
     margin: 40px 0px 40px 0px;
@@ -22,15 +22,15 @@ const AdventuresDescriptionContainer = styled.div`
     padding-left: 8px;
 `
 
-const AirbnbAdventures = () => {
+const TopRated = () => {
 
     const [data, setData] = useState([]);
-
+    
     useEffect(() => {
         const getData = () => {
             axios.get("http://localhost:5000/homepagedata")
             .then((results) => {
-                setData(results.data.airbnbAdventures);
+                setData(results.data.topRated);
             })
             .catch((error) => {
                 throw error;
@@ -45,10 +45,10 @@ const AirbnbAdventures = () => {
                 <div style={{display:"block"}}>
                     <div style={{width:"50%"}}>
                         <AdventuresTitleContainer>
-                            Introducing Airbnb Adventures
+                            Top Rated Experiences
                         </AdventuresTitleContainer>
                         <AdventuresDescriptionContainer>
-                            Multi-day trips led by local experts &mdash; activites, meals, and stays included.
+                            Experiences conducted by top rated local experts from around the world.
                         </AdventuresDescriptionContainer>
                     </div>
                 </div>
@@ -58,4 +58,4 @@ const AirbnbAdventures = () => {
     )
 }
 
-export default AirbnbAdventures;
+export default TopRated;

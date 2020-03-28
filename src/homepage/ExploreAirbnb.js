@@ -39,7 +39,7 @@ const ExploreCardImageContainer = styled.div`
     width: 126px;
 `
 const ExploreCardDescription = styled.div`
-    color: black;
+    color: #323232;
     line-height: 84px;
     padding: 0px 16px 0px 24px;
 `

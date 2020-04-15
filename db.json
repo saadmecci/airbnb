@@ -73,7 +73,7 @@
            {
             "topRatedId": "top-1",
             "imageUrl": "http://localhost:5000/assets/images/italyPicture4.jpg",
-            "country": "Italy",
+            "country": "ITALY",
             "name": "Handmade pasta with grandma",
             "price": 95,
             "unit": "person",
@@ -82,7 +82,7 @@
            {
             "topRatedId": "top-2",
             "imageUrl": "http://localhost:5000/assets/images/italyPicture5.jpg",
-            "country": "Italy",
+            "country": "ITALY",
             "name": "Learn to Row as a Venetian",
             "price": 55,
             "unit": "person",
@@ -91,7 +91,7 @@
            {
             "topRatedId": "top-3",
             "imageUrl": "http://localhost:5000/assets/images/italyPicture6.jpg",
-            "country": "Italy",
+            "country": "ITALY",
             "name": "Truffle experience Rome",
             "price": 111,
             "unit": "person",
@@ -100,7 +100,7 @@
            {
             "topRatedId": "top-4",
             "imageUrl": "http://localhost:5000/assets/images/cubaPicture.jpg",
-            "country": "Cuba",
+            "country": "CUBA",
             "name": "Afro-Cuban Culture Guide",
             "price": 79,
             "unit": "person",
@@ -109,7 +109,7 @@
            {
             "topRatedId": "top-5",
             "imageUrl": "http://localhost:5000/assets/images/italyPicture7.jpg",
-            "country": "Italy",
+            "country": "ITALY",
             "name": "Luca & Lorenzo, cooking in Chianti hills",
             "price": 140,
             "unit": "person",
@@ -152,11 +152,11 @@
             {
              "topRatedId": "topRated-1",
              "imageUrl": [
-                 "http://localhost:5000/assets/images/seashell1.jpg",
-                 "http://localhost:5000/assets/images/seashell2.jpg",
-                 "http://localhost:5000/assets/images/seashell3.jpg",
-                 "http://localhost:5000/assets/images/seashell4.jpg",
-                 "http://localhost:5000/assets/images/seashell5.jpg"
+                "http://localhost:5000/assets/images/seashell1.jpg",
+                "http://localhost:5000/assets/images/seashell2.jpg",
+                "http://localhost:5000/assets/images/seashell3.jpg",
+                "http://localhost:5000/assets/images/seashell4.jpg",
+                "http://localhost:5000/assets/images/seashell5.jpg"
              ],
              "status": "SUPERHOST",
              "location": "Isla Mujeres",
@@ -168,11 +168,11 @@
             {
              "topRatedId": "topRated-2",
              "imageUrl": [
-                 "http://localhost:5000/assets/images/cabana1.jpg",
-                 "http://localhost:5000/assets/images/cabana2.jpg",
-                 "http://localhost:5000/assets/images/cabana3.jpg",
-                 "http://localhost:5000/assets/images/cabana4.jpg",
-                 "http://localhost:5000/assets/images/cabana5.jpg"
+                "http://localhost:5000/assets/images/cabana1.jpg",
+                "http://localhost:5000/assets/images/cabana2.jpg",
+                "http://localhost:5000/assets/images/cabana3.jpg",
+                "http://localhost:5000/assets/images/cabana4.jpg",
+                "http://localhost:5000/assets/images/cabana5.jpg"
              ],
              "status": "SUPERHOST",
              "location": "Armenia",
@@ -184,11 +184,11 @@
             {
              "topRatedId": "topRated-3",
              "imageUrl": [
-                 "http://localhost:5000/assets/images/joshua1.jpg",
-                 "http://localhost:5000/assets/images/joshua2.jpg",
-                 "http://localhost:5000/assets/images/joshua3.jpg",
-                 "http://localhost:5000/assets/images/joshua4.jpg",
-                 "http://localhost:5000/assets/images/joshua5.jpg"
+                "http://localhost:5000/assets/images/joshua1.jpg",
+                "http://localhost:5000/assets/images/joshua2.jpg",
+                "http://localhost:5000/assets/images/joshua3.jpg",
+                "http://localhost:5000/assets/images/joshua4.jpg",
+                "http://localhost:5000/assets/images/joshua5.jpg"
              ],
              "status": "SUPERHOST",
              "location": "Joshua Tree",
@@ -200,11 +200,11 @@
             {
              "topRatedId": "topRated-4",
              "imageUrl": [
-                 "http://localhost:5000/assets/images/mushroom1.jpg",
-                 "http://localhost:5000/assets/images/mushroom2.jpg",
-                 "http://localhost:5000/assets/images/mushroom3.jpg",
-                 "http://localhost:5000/assets/images/mushroom4.jpg",
-                 "http://localhost:5000/assets/images/mushroom5.jpg"
+                "http://localhost:5000/assets/images/mushroom1.jpg",
+                "http://localhost:5000/assets/images/mushroom2.jpg",
+                "http://localhost:5000/assets/images/mushroom3.jpg",
+                "http://localhost:5000/assets/images/mushroom4.jpg",
+                "http://localhost:5000/assets/images/mushroom5.jpg"
              ],
              "status": "SUPERHOST",
              "location": "Aptos",
@@ -216,12 +216,12 @@
             {
              "topRatedId": "topRated-5",
              "imageUrl": [
-                 "http://localhost:5000/assets/images/hygge1.jpg",
-                 "http://localhost:5000/assets/images/hygge2.jpg",
-                 "http://localhost:5000/assets/images/hygge3.jpg",
-                 "http://localhost:5000/assets/images/hygge4.jpg",
-                 "http://localhost:5000/assets/images/hygge5.jpg"
-             ],
+                    "http://localhost:5000/assets/images/hygge1.jpg",
+                    "http://localhost:5000/assets/images/hygge2.jpg",
+                    "http://localhost:5000/assets/images/hygge3.jpg",
+                    "http://localhost:5000/assets/images/hygge4.jpg",
+                    "http://localhost:5000/assets/images/hygge5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Orondo",
              "rating": "4.85",
@@ -233,7 +233,13 @@
         "placesToStay":[
             {
              "staysId": "stays-1",
-             "imageUrl": "http://localhost:5000/assets/images/monteverde1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/monteverde1.jpg",
+                    "http://localhost:5000/assets/images/monteverde2.jpg",
+                    "http://localhost:5000/assets/images/monteverde3.jpg",
+                    "http://localhost:5000/assets/images/monteverde4.jpg",
+                    "http://localhost:5000/assets/images/monteverde5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Monte Verde",
              "rating": "4.92",
@@ -243,7 +249,13 @@
             },
             {
              "staysId": "stays-2",
-             "imageUrl": "http://localhost:5000/assets/images/phuket1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/phuket1.jpg",
+                    "http://localhost:5000/assets/images/phuket2.jpg",
+                    "http://localhost:5000/assets/images/phuket3.jpg",
+                    "http://localhost:5000/assets/images/phuket4.jpg",
+                    "http://localhost:5000/assets/images/phuket5.jpg"
+                ],
              "status": null,
              "location": "Phuket, Thailand",
              "rating": "4.67",
@@ -253,7 +265,13 @@
             },
             {
              "staysId": "stays-3",
-             "imageUrl": "http://localhost:5000/assets/images/marrakesh1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/marrakesh1.jpg",
+                    "http://localhost:5000/assets/images/marrakesh2.jpg",
+                    "http://localhost:5000/assets/images/marrakesh3.jpg",
+                    "http://localhost:5000/assets/images/marrakesh4.jpg",
+                    "http://localhost:5000/assets/images/marrakesh5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Marrakesh",
              "rating": "4.84",
@@ -263,17 +281,25 @@
             },
             {
              "staysId": "stays-4",
-             "imageUrl": "http://localhost:5000/assets/images/capetown1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/capetown1.jpg"
+                ],
              "status": "PLUS",
              "location": "Cape Town",
              "rating": "4.84",
-             "name": "Modern, Chic Penthouse with Mountain, City & Sea Views",
+             "name": "Modern, Chic and Secure Penthouse",
              "price": 58,
              "time": "night"
             },
             {
              "staysId": "stays-5",
-             "imageUrl": "http://localhost:5000/assets/images/bangkok1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/bangkok1.jpg",
+                    "http://localhost:5000/assets/images/bangkok2.jpg",
+                    "http://localhost:5000/assets/images/bangkok3.jpg",
+                    "http://localhost:5000/assets/images/bangkok4.jpg",
+                    "http://localhost:5000/assets/images/bangkok5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Bangkok",
              "rating": "4.69",
@@ -283,7 +309,13 @@
             },
             {
              "staysId": "stays-6",
-             "imageUrl": "http://localhost:5000/assets/images/malibu1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/malibu1.jpg",
+                    "http://localhost:5000/assets/images/malibu2.jpg",
+                    "http://localhost:5000/assets/images/malibu3.jpg",
+                    "http://localhost:5000/assets/images/malibu4.jpg",
+                    "http://localhost:5000/assets/images/malibu4.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Malibu",
              "rating": "4.78",
@@ -293,7 +325,13 @@
             },
             {
              "staysId": "stays-7",
-             "imageUrl": "http://localhost:5000/assets/images/ubud1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/ubud1.jpg",
+                    "http://localhost:5000/assets/images/ubud2.jpg",
+                    "http://localhost:5000/assets/images/ubud3.jpg",
+                    "http://localhost:5000/assets/images/ubud4.jpg",
+                    "http://localhost:5000/assets/images/ubud5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Ubud",
              "rating": "4.64",
@@ -303,7 +341,13 @@
             },
             {
              "staysId": "stays-8",
-             "imageUrl": "http://localhost:5000/assets/images/alozaina1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/alozaina1.jpg",
+                    "http://localhost:5000/assets/images/alozaina2.jpg",
+                    "http://localhost:5000/assets/images/alozaina3.jpg",
+                    "http://localhost:5000/assets/images/alozaina4.jpg",
+                    "http://localhost:5000/assets/images/alozaina5.jpg"
+                ],
              "status": null,
              "location": "Ubud",
              "rating": "4.86",
@@ -313,7 +357,13 @@
             },
             {
              "staysId": "stays-9",
-             "imageUrl": "http://localhost:5000/assets/images/choeng1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/choeng1.jpg",
+                    "http://localhost:5000/assets/images/choeng2.jpg",
+                    "http://localhost:5000/assets/images/choeng3.jpg",
+                    "http://localhost:5000/assets/images/choeng4.jpg",
+                    "http://localhost:5000/assets/images/choeng5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Villa Amonteera",
              "rating": "4.81",
@@ -323,7 +373,13 @@
             },
             {
              "staysId": "stays-10",
-             "imageUrl": "http://localhost:5000/assets/images/palms1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/palms1.jpg",
+                    "http://localhost:5000/assets/images/palms2.jpg",
+                    "http://localhost:5000/assets/images/palms3.jpg",
+                    "http://localhost:5000/assets/images/palms4.jpg",
+                    "http://localhost:5000/assets/images/palms5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Twentynine Palms",
              "rating": "4.96",
@@ -333,7 +389,13 @@
             },
             {
              "staysId": "stays-11",
-             "imageUrl": "http://localhost:5000/assets/images/oia1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/oia1.jpg",
+                    "http://localhost:5000/assets/images/oia2.jpg",
+                    "http://localhost:5000/assets/images/oia3.jpg",
+                    "http://localhost:5000/assets/images/oia4.jpg",
+                    "http://localhost:5000/assets/images/oia5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Oia",
              "rating": "4.94",
@@ -343,7 +405,13 @@
             },
             {
              "staysId": "stays-12",
-             "imageUrl": "http://localhost:5000/assets/images/volcano1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/volcano1.jpg",
+                    "http://localhost:5000/assets/images/volcano2.jpg",
+                    "http://localhost:5000/assets/images/volcano3.jpg",
+                    "http://localhost:5000/assets/images/volcano4.jpg",
+                    "http://localhost:5000/assets/images/volcano5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Volcano",
              "rating": "4.92",
@@ -353,7 +421,13 @@
             },
             {
              "staysId": "stays-13",
-             "imageUrl": "http://localhost:5000/assets/images/santorini1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/santorini1.jpg",
+                    "http://localhost:5000/assets/images/santorini2.jpg",
+                    "http://localhost:5000/assets/images/santorini3.jpg",
+                    "http://localhost:5000/assets/images/santorini4.jpg",
+                    "http://localhost:5000/assets/images/santorini5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Santorini",
              "rating": "4.95",
@@ -363,7 +437,13 @@
             },
             {
              "staysId": "stays-14",
-             "imageUrl": "http://localhost:5000/assets/images/budapest1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/budapest1.jpg",
+                    "http://localhost:5000/assets/images/budapest2.jpg",
+                    "http://localhost:5000/assets/images/budapest3.jpg",
+                    "http://localhost:5000/assets/images/budapest4.jpg",
+                    "http://localhost:5000/assets/images/budapest5.jpg"
+                ],
              "status": "SUPERHOST",
              "location": "Budapest",
              "rating": "4.97",
@@ -373,7 +453,13 @@
             },
             {
              "staysId": "stays-15",
-             "imageUrl": "http://localhost:5000/assets/images/kuta1.jpg",
+             "imageUrl": [
+                    "http://localhost:5000/assets/images/kuta1.jpg",
+                    "http://localhost:5000/assets/images/kuta2.jpg",
+                    "http://localhost:5000/assets/images/kuta3.jpg",
+                    "http://localhost:5000/assets/images/kuta4.jpg",
+                    "http://localhost:5000/assets/images/kuta5.jpg"
+                ],
              "status": null,
              "location": "Kuta Utara",
              "rating": "4.76",

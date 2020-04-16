@@ -1,8 +1,17 @@
 import React from 'react';
+import FilterBar from './FilterBar';
+import Travel from './Travel';
+import TopRatedStays from './TopRatedStays';
+import AllStays from './AllStays';
 
 const Stays = () => {
     return (
-        <h1>Stay</h1>
+        <>
+        <FilterBar/>
+        <Travel/>
+        <TopRatedStays/>
+        <AllStays/>
+        </>
     )
 }
 

@@ -24,3 +24,4 @@ This is what you will need to install the software and here is how to install it
 * [React Calendar](https://github.com/wojtekmaj/react-calendar) - Calendar with multiple language supports.
 * [JSON-Server](https://github.com/typicode/json-server) - A fake REST API for prototyping and mock data.
 * [Styled Components](https://styled-components.com) - React styling library that transforms css into React components.
+* [React Responsive Carousel](https://github.com/leandrowd/react-responsive-carousel) - React library used used to create a carousel component for images.

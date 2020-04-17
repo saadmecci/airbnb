@@ -39,7 +39,7 @@ const AdventuresRating = styled.div`
     line-height: 18px;
     margin-top: 2px;
 `
-const CardDisplayer = (props) => (
+const BigCardDisplayer = (props) => (
     <AdventuresCardContainer>
         {props.data.map((item, index) => 
             <AdventuresCard key={index}>
@@ -67,4 +67,4 @@ const CardDisplayer = (props) => (
     </AdventuresCardContainer>
 )
 
-export default CardDisplayer;
+export default BigCardDisplayer;

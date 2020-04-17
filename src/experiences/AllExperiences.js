@@ -3,12 +3,9 @@ import styled from 'styled-components';
 import axios from 'axios';
 import BigCardDisplayer from '../components/BigCardDisplayer';
 
-const AdventuresBigContainer = styled.div`
+const AdventuresContainer = styled.div`
     padding: 0px 80px 0px 80px;
-    margin-bottom: 80px;
-`
-const AdventuresSmallContainer = styled.div`
-    margin: 40px 0px 40px 0px;
+    margin: 40px 0px 160px 0px;
 `
 const AdventuresTitleContainer = styled.div`
     font-family: Airbnb Cereal App Book;
@@ -22,7 +19,7 @@ const AdventuresDescriptionContainer = styled.div`
     padding-left: 8px;
 `
 
-const AirbnbAdventures = () => {
+const AllExperiences = () => {
 
     const [data, setData] = useState([]);
 
@@ -40,18 +37,16 @@ const AirbnbAdventures = () => {
     }, []);
 
     return (
-        <AdventuresBigContainer>
-            <AdventuresSmallContainer>
-                <AdventuresTitleContainer>
-                    Introducing Airbnb Adventures
-                </AdventuresTitleContainer>
-                <AdventuresDescriptionContainer>
-                    Multi-day trips led by local experts &mdash; activites, meals, and stays included.
-                </AdventuresDescriptionContainer>
-                <BigCardDisplayer data={data}/>
-            </AdventuresSmallContainer>
-        </AdventuresBigContainer>
+        <AdventuresContainer>
+            <AdventuresTitleContainer>
+                Airbnb Adventures around the world
+            </AdventuresTitleContainer>
+            <AdventuresDescriptionContainer>
+                Multi-day trips led by local experts &mdash; activites, meals, and stays included.
+            </AdventuresDescriptionContainer>
+            <BigCardDisplayer data={data}/>
+        </AdventuresContainer>
     )
 }
 
-export default AirbnbAdventures;
+export default AllExperiences;

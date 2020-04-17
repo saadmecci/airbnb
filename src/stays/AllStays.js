@@ -9,7 +9,7 @@ const StaysBigContainer = styled.div`
 `
 const StaysSmallContainer = styled.div`
     display: block;
-    margin: 40px 0px 40px 0px;
+    margin: 40px 0px 80px 0px;
 `
 const StaysTitleContainer = styled.div`
     margin-bottom: 16px;

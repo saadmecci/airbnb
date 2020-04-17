@@ -470,94 +470,76 @@
         ]
    },
    "experiencesData": {
+       "types": [
+           {
+             "typesId": "types-1",
+             "imageUrl": "http://localhost:5000/assets/images/cooking.jpg",
+             "name": "Cooking",
+             "description": "Make and eat meals with locals who treat you like family"
+           },
+           {
+            "typesId": "types-2",
+            "imageUrl": "http://localhost:5000/assets/images/animals.jpg",
+            "name": "Animals",
+            "description": "Magical encounters hosted by animals and their advocates"
+          },
+          {
+            "typesId": "types-3",
+            "imageUrl": "http://localhost:5000/assets/images/adventuresPicture.jpg",
+            "name": "Adventures",
+            "description": "Hosted journeys to extraordinary places - all you have to do is show up"
+          }
+       ],
         "aroundTheWorld": [
             {
              "aroundTheWorldId": "world-1",
-             "imageUrl": "./src/pictures/italyPicture2.jpg",
+             "imageUrl": "http://localhost:5000/assets/images/italyPicture2.jpg",
              "status": "SUPERHOST",
              "country": "Italy",
              "name": "The house among olive trees",
              "price": 162,
              "unit": "night",
-             "rating": "4.95",
-             "tax": "Before fees & taxes"
+             "rating": "4.95"
             },
             {
              "aroundTheWorldId": "world-2",
-             "imageUrl": "./src/pictures/greecePicture.jpg",
+             "imageUrl": "http://localhost:5000/assets/images/greecePicture.jpg",
              "status": "SUPERHOST",
              "country": "Greece",
              "name": "SUNSET CAVE HOUSE IN OIA",
              "price": 481,
              "unit": "night",
-             "rating": "4.92",
-             "tax": "Before fees & taxes"
+             "rating": "4.92"
             },
             {
              "aroundTheWorldId": "world-3",
-             "imageUrl": "./src/pictures/ukPicture.jpg",
+             "imageUrl": "http://localhost:5000/assets/images/ukPicture.jpg",
              "status": "SUPERHOST",
              "country": "United Kingdom",
              "name": "Old Smock Windmill in rural Kent",
              "price": 226,
              "unit": "night",
-             "rating": "4.99",
-             "tax": "Before fees & taxes"
+             "rating": "4.99"
             },
             {
              "aroundTheWorldId": "world-4",
-             "imageUrl": "./src/pictures/italyPicture3.jpg",
+             "imageUrl": "http://localhost:5000/assets/images/italyPicture3.jpg",
              "status": "SUPERHOST",
              "country": "Italy",
              "name": "I SETTE CONI - TRULLO EDERA",
              "price": 70,
              "unit": "night",
-             "rating": "4.93",
-             "tax": "Before fees & taxes"
+             "rating": "4.93"
             },
             {
              "aroundTheWorldId": "world-5",
-             "imageUrl": "./src/pictures/francePicture.jpg",
+             "imageUrl": "http://localhost:5000/assets/images/francePicture.jpg",
              "status": "SUPERHOST",
              "country": "France",
              "name": "CHARMING HOUSE Seaside & Pine Forest",
              "price": 152,
              "unit": "night",
-             "rating": "4.89",
-             "tax": "Before fees & taxes"
-            },
-            {
-             "aroundTheWorldId": "world-6",
-             "imageUrl": "./src/pictures/indonesiaPicture",
-             "status": "SUPERHOST",
-             "country": "Indonesia",
-             "name": "Ocean Beachfront Luxury Design Villa @ Lovina",
-             "price": 190,
-             "unit": "night",
-             "rating": "4.89",
-             "tax": "Before fees & taxes"
-            },
-            {
-             "aroundTheWorldId": "world-7",
-             "imageUrl": "./src/pictures/japanPicture.jpg",
-             "status": "SUPERHOST",
-             "country": "Japan",
-             "name": "Sanson Terrace 'off-grid tiny cottage'",
-             "price": 94,
-             "unit": "night",
-             "rating": "4.94",
-             "tax": "Before fees & taxes"
-            },
-            {
-             "aroundTheWorldId": "world-8",
-             "imageUrl": "./src/pictures/usaPicture1.jpg",
-             "status": "SUPERHOST",
-             "country": "United States",
-             "name": "A Pirates Life For Me: Houseboat Downtown w/ Bikes",
-             "price": 279,
-             "unit": "night",
-             "rating": "4.73",
-             "tax": "Before fees & taxes"
+             "rating": "4.89"
             }
         ]
    }

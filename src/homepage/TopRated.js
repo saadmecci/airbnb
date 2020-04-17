@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
-import CardDisplayer from './components';
+import BigCardDisplayer from '../components/BigCardDisplayer';
 
 const AdventuresBigContainer = styled.div`
     padding: 0px 80px 0px 80px;
@@ -52,7 +52,7 @@ const TopRated = () => {
                         </AdventuresDescriptionContainer>
                     </div>
                 </div>
-                <CardDisplayer data={data}/>
+                <BigCardDisplayer data={data}/>
             </AdventuresSmallContainer>
         </AdventuresBigContainer>
     )

@@ -2,6 +2,7 @@ import React from 'react';
 import airbnbLogoWhite from './pictures/airbnbLogoWhite.svg';
 import { NavbarButton } from './components/Button';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Navbar = styled.div`
     height: 50px;
@@ -12,16 +13,17 @@ const Navbar = styled.div`
     padding: 25px 80px 0px 80px;
     box-sizing: border-box;
 `
-const LogoContainer = styled.div`
+const LogoContainer = styled(Link)`
     height: 31px;
     width: 29px;
+    cursor: pointer;
 `
 
 const NavigationBar = () => {
 
     return (
         <Navbar>
-            <LogoContainer>
+            <LogoContainer to={`/`}>
                 <img src={airbnbLogoWhite} alt="Airbnb Logo"/>
             </LogoContainer>
             <div style={{lineHeight:"31px"}}>

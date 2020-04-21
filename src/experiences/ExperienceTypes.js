@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const CardContainer = styled.div`
     padding: 0px 80px 0px 80px;
@@ -35,6 +36,14 @@ const CardDescription = styled.div`
     width: 400px;
     color: #717171;
 `
+const StyledLink = styled(Link)`
+    width: 100%;
+    text-decoration: none;
+    style: none;
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
+`
 
 const ExperienceTypes = () => {
 
@@ -56,6 +65,7 @@ const ExperienceTypes = () => {
     return (
         <CardContainer>
             {data.map((item, index) => 
+                <StyledLink to={`/${item.name}`}>
                 <Card key={index}>
                     <CardImage background={item.imageUrl}/>
                     <CardBanner>
@@ -67,6 +77,7 @@ const ExperienceTypes = () => {
                         </CardDescription>
                     </CardBanner>
                 </Card>
+                </StyledLink>
             )}
         </CardContainer>
     )

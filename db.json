@@ -282,7 +282,11 @@
             {
              "staysId": "stays-4",
              "imageUrl": [
-                    "http://localhost:5000/assets/images/capetown1.jpg"
+                    "http://localhost:5000/assets/images/capetown1.jpg",
+                    "http://localhost:5000/assets/images/capetown2.jpg",
+                    "http://localhost:5000/assets/images/capetown3.jpg",
+                    "http://localhost:5000/assets/images/capetown4.jpg",
+                    "http://localhost:5000/assets/images/capetown5.jpg"
                 ],
              "status": "PLUS",
              "location": "Cape Town",
@@ -542,5 +546,10 @@
              "rating": "4.89"
             }
         ]
+   },
+   "adventuresData": {
+       "dashboard": {
+           "imageUrl": "http://localhost:5000/assets/images/adventures.jpg"
+       }
    }
 }

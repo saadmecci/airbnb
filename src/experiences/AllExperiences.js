@@ -27,7 +27,7 @@ const AllExperiences = () => {
         const getData = () => {
             axios.get("http://localhost:5000/homepagedata")
             .then((results) => {
-                setData(results.data.airbnbAdventures);
+                setData(results.data.topRated);
             })
             .catch((error) => {
                 throw error;
@@ -39,10 +39,10 @@ const AllExperiences = () => {
     return (
         <AdventuresContainer>
             <AdventuresTitleContainer>
-                Airbnb Adventures around the world
+                Experiences from around the world
             </AdventuresTitleContainer>
             <AdventuresDescriptionContainer>
-                Multi-day trips led by local experts &mdash; activites, meals, and stays included.
+                Experiences conducted by top rated local experts from around the world.
             </AdventuresDescriptionContainer>
             <BigCardDisplayer data={data}/>
         </AdventuresContainer>

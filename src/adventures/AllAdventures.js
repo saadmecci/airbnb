@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import BigCardDisplayer from '../components/BigCardDisplayer';
 
 const AdventuresBigContainer = styled.div`

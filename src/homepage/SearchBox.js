@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Form } from 'react-final-form';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import Calendar from 'react-calendar';
 import InputCalendarModal from '../components/Calendar';
 

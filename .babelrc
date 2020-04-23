@@ -1,7 +1,7 @@
 {
     "plugins": [
         [
-            "styled-components",
+            "babel-plugin-styled-components",
             {
                 "displayName": true,
                 "preprocess": false

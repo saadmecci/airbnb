@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 const InputCalendarModal = styled.div`
     display: ${props => props.display === "block" ? "block":"none"};

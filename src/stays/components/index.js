@@ -1,6 +1,6 @@
 import React from 'react';
 import RedStar from '../../pictures/redStar.svg';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 

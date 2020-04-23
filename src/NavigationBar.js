@@ -1,7 +1,7 @@
 import React from 'react';
 import airbnbLogoWhite from './pictures/airbnbLogoWhite.svg';
 import { NavbarButton } from './components/Button';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
 
 const Navbar = styled.div`

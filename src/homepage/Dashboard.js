@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchBox from './SearchBox';
 import dashboardPicture from '../pictures/dashboardPicture.jpg';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 const DashboardContainer = styled.div`
     height: 100vh;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 const DescriptionContainer = styled.div`
     height: 480px;
